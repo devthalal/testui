@@ -1,0 +1,13 @@
+{
+  "name": "testui",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/devthalal/testui",
+    "ssh": "git@github.com:devthalal/testui.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
